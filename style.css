@@ -1,8 +1,102 @@
-body {
+* {
   margin: 0 auto;
   box-sizing: border-box;
 }
 
-.nav-bar {
+body {
+  font-size: 22px;
+  font-family: 'Helvetica';
+  color: seashell;
   background-color: black;
+}
+
+main {
+  width: 1200px;
+}
+
+.nav-bar {
+  position: fixed;
+  height: 69px;
+  line-height: 69px;
+  width: 100%;
+  padding: 0 10px;
+  border-bottom: 1px solid seashell;
+  text-align: right;
+  background-color: black;
+}
+
+.nav-bar a {
+  padding-left: 20px;
+  color: seashell;
+}
+
+.mission-hero {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  padding-top: 69px;
+  text-align: center;
+}
+
+.mission-hero h2,
+.mission-hero h4 {
+  background-color: black;
+  padding: 10px;
+}
+
+.mission-text {
+  margin-top: 265px;
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.info h2,
+.info h4 {
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+}
+
+.card {
+  background-size: cover;
+  height: 200px;
+  width: 300px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 55px;
+}
+
+.one {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+}
+
+.two {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+}
+
+.three {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+}
+
+.four {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+}
+
+.five {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+}
+
+.caption {
+  margin-top: 210px;
 }
