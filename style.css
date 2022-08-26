@@ -114,10 +114,11 @@ main {
   width: 1200px;
   height: 500px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .locations h2 {
-  padding-top: 90px;
+  padding-top: 75px;
   padding-bottom: 15px;
 }
 
@@ -128,15 +129,31 @@ main {
 
 .loc-card {
   background-color: black;
-  height: 300px;
   width: 300px;
   margin: 0 20px;
 }
 
 .loc-card h3 {
-  padding: 22px 0;
+  padding: 20px 0;
 }
 
 .loc-card p {
-  padding: 22px 0;
+  padding: 20px 0;
+}
+
+footer {
+  width: 1200px;
+  text-align: center;
+}
+
+footer h2 {
+  padding: 10px;
+}
+
+footer h5 {
+  padding: 20px;
+}
+
+.copy {
+  float: left;
 }
