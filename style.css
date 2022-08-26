@@ -18,6 +18,7 @@ main {
 .logo {
   display: inline;
   float: left;
+  height: 50px;
 }
 
 .nav-bar {
