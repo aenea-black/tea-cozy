@@ -8,10 +8,16 @@ body {
   font-family: 'Helvetica';
   color: seashell;
   background-color: black;
+  opacity: 0.7;
 }
 
 main {
   width: 1200px;
+}
+
+.logo {
+  display: inline;
+  float: left;
 }
 
 .nav-bar {
@@ -31,7 +37,7 @@ main {
 }
 
 .mission-hero {
-  background-image: url('img-mission-background.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
   background-size: cover;
   height: 700px;
   width: 1200px;
@@ -68,7 +74,7 @@ main {
   justify-content: center;
 }
 
-.card {
+.info-card {
   background-size: cover;
   height: 200px;
   width: 300px;
@@ -77,26 +83,60 @@ main {
   margin-bottom: 55px;
 }
 
+.caption {
+  margin-top: 210px;
+  font-weight: 700;
+}
+
 .one {
-  background-image: url('img-berryblitz.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
 }
 
 .two {
-  background-image: url('img-spiced-rum.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
 }
 
 .three {
-  background-image: url('img-donut.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
 }
 
 .four {
-  background-image: url('img-myrtle-ave.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
 }
 
 .five {
-  background-image: url('img-bedford-bizarre.jpg');
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
 }
 
-.caption {
-  margin-top: 210px;
+.locations {
+  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+}
+
+.locations h2 {
+  padding-top: 90px;
+  padding-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.loc-card {
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.loc-card h3 {
+  padding: 22px 0;
+}
+
+.loc-card p {
+  padding: 22px 0;
 }
