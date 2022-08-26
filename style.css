@@ -37,7 +37,7 @@ main {
 }
 
 .mission-hero {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-mission-background.jpg');
   background-size: cover;
   height: 700px;
   width: 1200px;
@@ -89,27 +89,27 @@ main {
 }
 
 .one {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-berryblitz.jpg');
 }
 
 .two {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-spiced-rum.jpg');
 }
 
 .three {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-donut.jpg');
 }
 
 .four {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-myrtle-ave.jpg');
 }
 
 .five {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-bedford-bizarre.jpg');
 }
 
 .locations {
-  background-image: url('https://cdn1.sph.harvard.edu/wp-content/uploads/sites/30/2019/07/beverage-blur-cup-370018.jpg');
+  background-image: url('img-locations-background.jpg');
   background-size: cover;
   width: 1200px;
   height: 500px;
